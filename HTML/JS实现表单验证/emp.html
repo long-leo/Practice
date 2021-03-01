@@ -1,5 +1,6 @@
-<html>
+<html lang="zh">
     <head>
+        <meta charset="UTF-8">
         <title>ll</title>
         <script language="JavaScript" src="check.js">
 
@@ -7,7 +8,7 @@
     </head>
     <body>
     <form action=""  method="post" name= "empForm" onsubmit="return check(this)">
-        雇员编号:<input type="text" name="empno" >
+        雇员编号:<label><input type="text" name="empno"></label>
       <!--  <input type="text" name="empnoError"><br />-->
         <span id="empnoError"></span><br />
         雇员姓名:<input type="text" name="empName">
@@ -28,5 +29,5 @@
         <input type="submit" value="提交">
         <input type="reset" value="重置">
     </form>
-    <body/>
+    </body>
 </html>
