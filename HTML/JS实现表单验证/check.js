@@ -1,6 +1,6 @@
 function check(f){
   if (! /^\d+$/.test(f.empno.value)){
-    f.empnoError.value = "只能是数字";
+    document.getElementById("empnoError").innerHTML= "<tt>只能是数字</tt>";
     f.empno.focus();
     f.empno.select();
     return false;
